@@ -3,8 +3,10 @@ import unittest
 from src.topic1.lesson1.variables import variables_task1
 
 
+'''
 class MyTestCase(unittest.TestCase):
-
+'''
+class MyTestCase1(unittest.TestCase):
     def test_variables_task1(self):
         my_string, my_float, my_int = variables_task1()
         self.assertEqual(my_string, "hello")
